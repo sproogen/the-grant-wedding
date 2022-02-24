@@ -15,10 +15,21 @@
         font-size: 5rem;
       }
       
+      @media only screen and (max-width: 600px) {
+        h1 {
+          font-size: 4rem;  
+        }
+      }
+      
       .container {
         display: flex;
         align-items: center;
         height: 600px;
+      }
+      
+      img {
+        width: 300px;
+        height: 500px;
       }
     </style>
     <style>
@@ -34,9 +45,7 @@
   <body>
     <div class="container d-flex justify-content-center">
       <div class="text-center">
-        <svg width="350" height="425">       
-          <image xlink:href="Church_Outline.svg" width="350" height="500"/>    
-        </svg>
+        <img src="Church_Outline.svg"/>    
         <h1>Save the date</h1>
         <p>FOR THE WEDDING OF</p>
         <h3>Rebecca Hesford and James Grant</h3>
